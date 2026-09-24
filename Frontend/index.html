@@ -1,0 +1,732 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Money Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- ==================== SIDEBAR ==================== -->
+
+        <aside class="sidebar">
+
+            <div class="logo">
+                Money Manager
+            </div>
+
+            <nav class="navigation">
+
+                <a href="#" class="nav-link active">
+                    Dashboard
+                </a>
+
+                <a href="#" class="nav-link">
+                    Transactions
+                </a>
+
+                <a href="#" class="nav-link">
+                    Budgets
+                </a>
+
+                <a href="#" class="nav-link">
+                    Goals
+                </a>
+
+                <a href="#" class="nav-link">
+                    Calendar
+                </a>
+
+                <a href="#" class="nav-link">
+                    Insights
+                </a>
+
+                <a href="#" class="nav-link">
+                    Shared Expenses
+                </a>
+
+                <a href="#" class="nav-link">
+                    Reports
+                </a>
+
+                <a href="#" class="nav-link">
+                    Settings
+                </a>
+
+            </nav>
+
+        </aside>
+
+
+        <!-- ==================== MAIN CONTENT ==================== -->
+
+        <main class="main-content">
+
+
+            <!-- Header -->
+
+            <header class="top-bar">
+
+                <div>
+                    <h1>Dashboard</h1>
+
+                    <p>
+                        Welcome back. Here's your financial overview.
+                    </p>
+                </div>
+
+                <button class="add-transaction-button">
+                    + Add Transaction
+                </button>
+
+            </header>
+
+
+            <!-- ==================== SUMMARY CARDS ==================== -->
+
+            <section class="summary-section">
+
+                <div class="summary-card">
+
+                    <p class="card-label">
+                        Balance
+                    </p>
+
+                    <h2>
+                        $0
+                    </h2>
+
+                    <span class="card-description">
+                        Available balance
+                    </span>
+
+                </div>
+
+
+                <div class="summary-card">
+
+                    <p class="card-label">
+                        Total Income
+                    </p>
+
+                    <h2>
+                        $0
+                    </h2>
+
+                    <span class="card-description">
+                        This month
+                    </span>
+
+                </div>
+
+
+                <div class="summary-card">
+
+                    <p class="card-label">
+                        Total Expenses
+                    </p>
+
+                    <h2>
+                        $0
+                    </h2>
+
+                    <span class="card-description">
+                        This month
+                    </span>
+
+                </div>
+
+
+                <div class="summary-card">
+
+                    <p class="card-label">
+                        Savings
+                    </p>
+
+                    <h2>
+                        $0
+                    </h2>
+
+                    <span class="card-description">
+                        This month
+                    </span>
+
+                </div>
+
+            </section>
+
+
+            <!-- ==================== DASHBOARD GRID ==================== -->
+
+            <section class="dashboard-grid">
+
+
+                <!-- ==================== SPENDING OVERVIEW ==================== -->
+
+                <div class="dashboard-card spending-overview">
+
+                    <div class="card-header">
+
+                        <div>
+                            <h3>📊 Spending Overview</h3>
+
+                            <p>
+                                Your spending by category
+                            </p>
+                        </div>
+
+                        <a href="#">
+                            View Details
+                        </a>
+
+                    </div>
+
+
+                    <div class="spending-list">
+
+                        <div class="spending-item">
+
+                            <div>
+                                <strong>Food</strong>
+                                <span>Groceries & dining</span>
+                            </div>
+
+                            <strong>$0</strong>
+
+                        </div>
+
+
+                        <div class="spending-item">
+
+                            <div>
+                                <strong>Transport</strong>
+                                <span>Fuel & travel</span>
+                            </div>
+
+                            <strong>$0</strong>
+
+                        </div>
+
+
+                        <div class="spending-item">
+
+                            <div>
+                                <strong>Shopping</strong>
+                                <span>Personal purchases</span>
+                            </div>
+
+                            <strong>$0</strong>
+
+                        </div>
+
+
+                        <div class="spending-item">
+
+                            <div>
+                                <strong>Bills</strong>
+                                <span>Utilities & subscriptions</span>
+                            </div>
+
+                            <strong>$0</strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ==================== UPCOMING PAYMENTS ==================== -->
+
+                <div class="dashboard-card upcoming-payments">
+
+                    <div class="card-header">
+
+                        <div>
+                            <h3>📅 Upcoming Payments</h3>
+
+                            <p>
+                                Payments due soon
+                            </p>
+                        </div>
+
+                        <a href="#">
+                            View All
+                        </a>
+
+                    </div>
+
+
+                    <div class="payment-list">
+
+                        <div class="payment-item">
+
+                            <div>
+                                <strong>Electricity Bill</strong>
+                                <span>Due in 3 days</span>
+                            </div>
+
+                            <strong>$0</strong>
+
+                        </div>
+
+
+                        <div class="payment-item">
+
+                            <div>
+                                <strong>Netflix</strong>
+                                <span>Due in 7 days</span>
+                            </div>
+
+                            <strong>$0</strong>
+
+                        </div>
+
+
+                        <div class="payment-item">
+
+                            <div>
+                                <strong>Rent</strong>
+                                <span>Due in 12 days</span>
+                            </div>
+
+                            <strong>$0</strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ==================== GOAL PROGRESS ==================== -->
+
+                <div class="dashboard-card goal-progress">
+
+                    <div class="card-header">
+
+                        <div>
+                            <h3>🎯 Goal Progress</h3>
+
+                            <p>
+                                Track your financial goals
+                            </p>
+                        </div>
+
+                        <a href="#">
+                            View Goals
+                        </a>
+
+                    </div>
+
+
+                    <div class="goal">
+
+                        <div class="goal-info">
+
+                            <strong>New Laptop</strong>
+
+                            <span>
+                                $0 of $0
+                            </span>
+
+                        </div>
+
+
+                        <div class="progress-bar">
+
+                            <div class="progress-fill">
+                            </div>
+
+                        </div>
+
+
+                        <span class="goal-percentage">
+                            0% completed
+                        </span>
+
+                    </div>
+
+
+                    <div class="goal">
+
+                        <div class="goal-info">
+
+                            <strong>Emergency Fund</strong>
+
+                            <span>
+                                $0 of $0
+                            </span>
+
+                        </div>
+
+
+                        <div class="progress-bar">
+
+                            <div class="progress-fill second">
+                            </div>
+
+                        </div>
+
+
+                        <span class="goal-percentage">
+                            0% completed
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ==================== SPENDING INSIGHTS ==================== -->
+
+                <div class="dashboard-card spending-insights">
+
+                    <div class="card-header">
+
+                        <div>
+                            <h3>📈 Spending Insights</h3>
+
+                            <p>
+                                Understand your financial habits
+                            </p>
+                        </div>
+
+                        <a href="#">
+                            View Insights
+                        </a>
+
+                    </div>
+
+
+                    <div class="insight">
+
+                        <strong>
+                            Food is your highest spending category.
+                        </strong>
+
+                        <p>
+                            You spent $0 on food this month.
+                        </p>
+
+                    </div>
+
+
+                    <div class="insight">
+
+                        <strong>
+                            Your spending increased this month.
+                        </strong>
+
+                        <p>
+                            You spent 0% more than last month.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ==================== SHARED EXPENSES ==================== -->
+
+                <div class="dashboard-card shared-expenses">
+
+                    <div class="card-header">
+
+                        <div>
+                            <h3>👥 Shared Expenses</h3>
+
+                            <p>
+                                Manage group expenses
+                            </p>
+                        </div>
+
+                        <a href="#">
+                            View Groups
+                        </a>
+
+                    </div>
+
+
+                    <div class="shared-expense-summary">
+
+                        <div>
+                            <span>Total Group Spending</span>
+
+                            <strong>$0</strong>
+                        </div>
+
+
+                        <div>
+                            <span>You Paid</span>
+
+                            <strong>$0</strong>
+                        </div>
+
+
+                        <div>
+                            <span>You Are Owed</span>
+
+                            <strong>$0</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ==================== CURRENCY CONVERTER ==================== -->
+
+                <div class="dashboard-card currency-converter">
+
+                    <div class="card-header">
+
+                        <div>
+                            <h3>💱 Currency Converter</h3>
+
+                            <p>
+                                Convert currencies quickly
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="currency-input">
+
+                        <label>
+                            Amount
+                        </label>
+
+                        <input
+                            type="number"
+                            value="1000"
+                        >
+
+                    </div>
+
+
+                    <div class="currency-row">
+
+                        <select>
+                            <option>USD - US Dollar</option>
+                            <option>EUR - Euro</option>
+                            <option>GBP - British Pound</option>
+                            <option>INR - Indian Rupee</option>
+                        </select>
+
+
+                        <span>
+                            →
+                        </span>
+
+
+                        <select>
+                            <option>INR - Indian Rupee</option>
+                            <option>USD - US Dollar</option>
+                            <option>EUR - Euro</option>
+                            <option>GBP - British Pound</option>
+                        </select>
+
+                    </div>
+
+
+                    <button class="convert-button">
+                        Convert
+                    </button>
+
+
+                    <div class="conversion-result">
+
+                        $1,000 USD
+
+                        <strong>
+                            ≈ $83,000 INR
+                        </strong>
+
+                    </div>
+
+                </div>
+
+                
+            </section>
+
+            <!-- =========================
+     TRANSACTION HISTORY
+========================= -->
+
+<section class="dashboard-card transaction-history" id="transactionHistory">
+
+    <div class="card-header">
+
+        <div>
+
+            <h3>💳 Recent Transactions</h3>
+
+            <p>Your latest financial activity</p>
+
+        </div>
+
+    </div>
+
+    <div id="transactionsList">
+
+        <p class="empty-transactions">
+            No transactions yet. Add your first transaction above.
+        </p>
+
+    </div>
+
+</section>
+        </main>
+
+
+    </div>
+    <!-- =========================
+     ADD TRANSACTION MODAL
+========================= -->
+
+<div class="modal-overlay" id="transactionModal">
+
+    <div class="transaction-modal">
+
+        <div class="modal-header">
+
+            <h2>Add Transaction</h2>
+
+            <button
+                class="close-modal"
+                id="closeModal"
+                type="button"
+            >
+                &times;
+            </button>
+
+        </div>
+
+
+        <p class="modal-subtitle">
+            Add your income or expense details.
+        </p>
+
+
+        <form id="transactionForm">
+
+            <div class="form-group">
+
+                <label for="transactionType">
+                    Transaction Type
+                </label>
+
+                <select id="transactionType" required>
+
+                    <option value="">
+                        Select type
+                    </option>
+
+                    <option value="income">
+                        Income
+                    </option>
+
+                    <option value="expense">
+                        Expense
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="transactionAmount">
+                    Amount
+                </label>
+
+                <input
+                    type="number"
+                    id="transactionAmount"
+                    placeholder="Enter amount"
+                    min="1"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="transactionCategory">
+                    Category
+                </label>
+
+                <select id="transactionCategory" required>
+
+                    <option value="">
+                        Select category
+                    </option>
+
+                    <option value="Food">
+                        Food
+                    </option>
+
+                    <option value="Transport">
+                        Transport
+                    </option>
+
+                    <option value="Shopping">
+                        Shopping
+                    </option>
+
+                    <option value="Bills">
+                        Bills
+                    </option>
+
+                    <option value="Other">
+                        Other
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="modal-actions">
+
+                <button
+                    type="button"
+                    class="cancel-button"
+                    id="cancelModal"
+                >
+                    Cancel
+                </button>
+
+
+                <button
+                    type="submit"
+                    class="save-button"
+                >
+                    Add Transaction
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+ <script src="script.js"></script>
+</body>
+
+</html>
+
